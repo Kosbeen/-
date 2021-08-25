@@ -5,7 +5,7 @@ const resultData = locations.getSeries().then(res => titleTemplate(res.data));
 
 const {title,original_title, director,description} = resultData;
 export function titleTemplate({title,original_title,original_title_romanised,director,description}) {
- const template = document.querySelector('.container');
+ const template = document.querySelector('.container-totoro');
  const card = addCard({title,original_title,original_title_romanised,director,description});
  template.insertAdjacentHTML('afterbegin', card)
 }

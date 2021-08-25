@@ -52,11 +52,6 @@ p {
 
 /* container */
 
-.container {
-  max-width: 1000px; /*под проект*/
-  margin: 0 auto;
-}
-
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -75,9 +70,20 @@ p {
   display: table;
   clear: both;
 }
+/* основная часть */
 
-.container {
-  width: 30%;
+.main-container {
+  max-width: 1000px; /*под проект*/
+  margin: 0 auto;
+}
+
+.container-totoro {
+  margin: 0 auto;
+  width: 45%;
+}
+.main-container-totoro-title {
+  display: flex;
+  width: 100%;
 }
 .card {
   padding-top: 5px;
@@ -111,4 +117,10 @@ p {
   padding: 15px 25px;
   border-radius: 10px;
   background-color: chocolate;
+}
+.container-totoro-img {
+  width: 45%;
+}
+.totoro-img {
+  border-radius: 15px;
 }
