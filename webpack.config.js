@@ -60,10 +60,6 @@ module.exports = {
         ],
       },
       {
-      test: /\.html?/,
-      use: "html-loader"
-      },
-      {
         test: /\.(png|jpe?g|gif|svg)$/,
         use: [
           {
