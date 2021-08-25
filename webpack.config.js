@@ -4,6 +4,7 @@ const precss = require('precss');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
+
 module.exports = {
   // Итак,  чтобы вебпак начал свою работу, нужно указать главный (основной) файл, который будет включать в себя все другие необходимые файлы (модули).
   entry: {
@@ -59,14 +60,19 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpe?g|gif)$/,
+      test: /\.html?/,
+      use: "html-loader"
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/,
         use: [
           {
             loader: 'file-loader',
             options: {
-              name: '[path][name].[ext]',
+              name: '[name].[hash].[ext]',
+              outputPath: 'imgs',
             },
-          },
+          },  
         ],
       },
     ],
