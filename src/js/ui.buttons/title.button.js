@@ -15,6 +15,6 @@ function addPicture() {
 return `
 <img class="totoro-img" src="${totoro}">
 `
-}
+};
 
 export default buttonOnClick;
