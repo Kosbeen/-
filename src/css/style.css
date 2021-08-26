@@ -110,13 +110,18 @@ p {
 }
 .button-container {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .title-button {
-  padding: 15px 25px;
+  padding: 15px 35px;
   border-radius: 10px;
   background-color: chocolate;
+}
+.title-button-remove {
+  padding: 15px 35px;
+  border-radius: 10px;
+  background-color: red;
 }
 .container-totoro-img {
   width: 45%;

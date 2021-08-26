@@ -1,5 +1,5 @@
 import axios from "axios";
-import api from "../js/api.config/api.confog";
+import api from '../api.config/api.confog'
 
 class Locations {
     constructor(api) {

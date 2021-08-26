@@ -1,4 +1,4 @@
-import locations from "../services/services";
+import locations from '../services/services'
 
 ;
 const resultData = locations.getSeries().then(res => titleTemplate(res.data));
