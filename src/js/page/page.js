@@ -1,6 +1,5 @@
 import locations from '../services/services'
 
-;
 const resultData = locations.getSeries().then(res => titleTemplate(res.data));
 
 const {title,original_title, director,description} = resultData;

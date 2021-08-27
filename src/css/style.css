@@ -83,6 +83,7 @@ p {
 }
 .main-container-totoro-title {
   display: flex;
+  padding-bottom: 30px;
   width: 100%;
 }
 .card {
@@ -127,5 +128,47 @@ p {
   width: 45%;
 }
 .totoro-img {
+  width: 61%;
+  height: 73%;
+  border-radius: 25px;
+}
+/* Section film */
+.film-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.film-cards-button-add {
+  padding: 15px 35px;
   border-radius: 15px;
+  background-color: aqua;
+}
+.film-cards-container {
+  padding-top: 30px;
+}
+.card-title-film {
+  padding-bottom: 15px;
+  text-align: center;
+}
+.card-container-film {
+  margin-bottom: 15px;
+  padding: 15px 0px 15px 15px;
+  border: 2px solid yellowgreen;
+  border-radius: 15px;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+}
+.card-list-item-all {
+  padding-bottom: 7px;
+}
+.card-list-item-all:nth-last-child(1) {
+  padding-bottom: 0px;
+}
+.film-card-text {
+  line-height: 25px;
 }
