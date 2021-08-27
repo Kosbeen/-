@@ -7,22 +7,34 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="main-container">
-      <!-- Блок в шапке страницы -->
-      <div class="main-container-totoro-title">
-        <div class="container-totoro">
-          <div class="button-container">
-            <button class="title-button">Totoro</button>
-            <button class="title-button-remove">Удалить</button>
+    <header>
+      <div class="main-container">
+        <menu> </menu>
+        <!-- Блок в шапке страницы -->
+        <div class="main-container-totoro-title">
+          <div class="container-totoro">
+            <div class="button-container">
+              <button class="title-button">Totoro</button>
+              <button class="title-button-remove">Удалить</button>
+            </div>
           </div>
+          <div class="container-totoro-img"></div>
         </div>
-        <div class="container-totoro-img"></div>
       </div>
-      <!-- Блок в центре страницы -->
-      <section class="film-cards">
-        <button class="film-cards-button-add">Посмотреть список фильмов</button>
+    </header>
+    <section class="film-cards">
+      <div class="main-container">
+        <!-- Блок в центре страницы -->
+        <div class="film-card-button-container">
+          <button class="film-cards-button-add">
+            Посмотреть список фильмов
+          </button>
+          <button class="film-cards-button-remove">
+            Убрать список фильмов
+          </button>
+        </div>
         <div class="film-cards-container"></div>
-      </section>
-    </div>
+      </div>
+    </section>
   </body>
 </html>
