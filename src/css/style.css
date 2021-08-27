@@ -127,5 +127,7 @@ p {
   width: 45%;
 }
 .totoro-img {
-  border-radius: 15px;
+  width: 61%;
+  height: 73%;
+  border-radius: 25px;
 }
