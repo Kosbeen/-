@@ -190,3 +190,37 @@ p {
   border-radius: 15px;
   background-color: tomato;
 }
+
+/* Section accordion */
+.accordion-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.accordion-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.accordion-button {
+  padding: 10px 0 10px 0;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+.accordion-active,
+.accordion-button:hover {
+  background-color: #ccc;
+}
+.panel {
+  display: none;
+  padding: 10px 0 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+}

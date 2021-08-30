@@ -7,6 +7,7 @@ import imgButtonOnClick from './ui.buttons/title.button.remove';
 import films from './services/film.service';
 import { buttonAddAction } from './page/film.page';
 
-
-
+import { accordionActivation } from './ui.buttons/accordion.buttons';
+import { accordionElements } from './ui.buttons/accordion.buttons';
+import { accordionTitles } from './ui.buttons/accordion.buttons';
 
